@@ -55,12 +55,9 @@ header.header ul li a {
   text-shadow: none;
 }
 
-header.header .navbar-brand {
-  color: #fff;
-  font-family: 'loveloblack', 'sans-serif';
-  font-size: 1.4em;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+header.header .navbar-brand svg{
+  position: relative;
+  bottom: 15px;
 }
 
 .hero {
