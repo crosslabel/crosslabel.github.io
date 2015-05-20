@@ -87,6 +87,7 @@ header.header .navbar-brand{
   background-position: 40% 80%;
   width: 100%;
   height: 600px;
+  padding-bottom: 1em;
 }
 
 .home-hero .hero-content {
@@ -221,4 +222,12 @@ footer.footer a {
 
 footer ul.nav {
     padding-left: 20px;
+  }
+
+
+  @media (min-width: 600px) {
+    .home-content svg.browser {
+      width: 100%;
+      margin-top: 2em;
+    }
   }
