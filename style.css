@@ -64,7 +64,7 @@ header.header .navbar-brand {
 }
 
 .home-hero {
-  background: #ccc url('home_page.jpg');
+  background: #ccc url('login_page.jpg');
   background-size: cover;
   background-position: 40% 40%;
   width: 100%;
@@ -77,6 +77,15 @@ header.header .navbar-brand {
   text-align: center;
   padding-top: 8em;
 }
+
+.home-hero .hero-overlay {
+    background: rgba(0,0,0, 0.2);
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    top: 0;
+    left: 0;
+  }
 
 .home-hero .hero-content .btn-cta {
   display: inline;
