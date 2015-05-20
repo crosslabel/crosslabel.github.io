@@ -55,9 +55,14 @@ header.header ul li a {
   text-shadow: none;
 }
 
-header.header .navbar-brand svg{
-  position: relative;
-  bottom: 15px;
+header.header .navbar-brand{
+    color: #fff;
+    font-size: 1.4em;
+    font-family: 'loveloblack', 'sans-serif';
+    padding-left: 0;
+    padding-right: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .hero {
