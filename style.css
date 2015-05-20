@@ -128,7 +128,8 @@ header.header .navbar-brand svg{
   text-align: center;
 }
 
-.home-content svg {
+.home-content svg.browser {
+  margin-top: 2em;
 }
 .home-content-intro {
   text-align: center;
